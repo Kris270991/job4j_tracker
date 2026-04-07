@@ -23,7 +23,6 @@ public class StartUI {
                 run = false;
             }
         }
-
     }
 
     public static void findItemByName(Input input, Tracker tracker) {
