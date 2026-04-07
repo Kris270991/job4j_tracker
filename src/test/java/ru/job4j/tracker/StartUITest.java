@@ -6,7 +6,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 class StartUITest {
 
     @Test
-    void createItem() {
+    void whenAddItem() {
         String[] answers = {"Test"};
         Input input = new MockInput(answers);
         Tracker tracker = new Tracker();
